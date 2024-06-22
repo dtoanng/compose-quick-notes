@@ -1,4 +1,4 @@
-package com.samsung.shrc.dtoanng.compose_quick_notes.ui.theme
+package com.samsung.shrc.dtoanng.compose_quick_notes.core.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build
