@@ -11,14 +11,14 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.samsung.shrc.dtoanng.compose_quick_notes.core.presentation.ui.theme.ComposequicknotesTheme
+import com.samsung.shrc.dtoanng.compose_quick_notes.core.presentation.ui.theme.ComposeQuickNotes
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            ComposequicknotesTheme {
+            ComposeQuickNotes {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
                         name = "Duy Toan",
@@ -41,7 +41,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    ComposequicknotesTheme {
+    ComposeQuickNotes {
         Greeting("Android")
     }
 }
