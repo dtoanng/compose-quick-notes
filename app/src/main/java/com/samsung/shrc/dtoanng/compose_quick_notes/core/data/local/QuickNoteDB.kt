@@ -8,5 +8,5 @@ import androidx.room.RoomDatabase
     version = 1
 )
 abstract class QuickNoteDB : RoomDatabase() {
-    abstract val quickNoteDao: QuickNoteDao
+    abstract val quickNoteDao: IQuickNoteDao
 }

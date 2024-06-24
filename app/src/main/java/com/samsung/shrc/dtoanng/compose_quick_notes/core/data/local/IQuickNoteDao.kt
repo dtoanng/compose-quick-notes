@@ -6,7 +6,7 @@ import androidx.room.Query
 import androidx.room.Upsert
 
 @Dao
-interface QuickNoteDao {
+interface IQuickNoteDao {
 
     @Upsert
     suspend fun upsertQuickNoteEntity(quickNoteEntity: QuickNoteEntity)
