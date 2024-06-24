@@ -16,7 +16,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "com.samsung.shrc.dtoanng.compose_quick_notes.HiltTestRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
